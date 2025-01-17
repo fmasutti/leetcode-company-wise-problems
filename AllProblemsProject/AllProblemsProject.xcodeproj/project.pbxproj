@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5B4886B42D3A9B8E003DCEBC /* 1. Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B4886B52D3A9B8E003DCEBC /* 2. Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Two Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5B4886AC2D3A6F19003DCEBC = {
+			isa = PBXGroup;
+			children = (
+				5B4886B42D3A9B8E003DCEBC /* 1. Valid Parentheses.playground */,
+				5B4886B52D3A9B8E003DCEBC /* 2. Two Sum.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5B4886AD2D3A6F19003DCEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = 5B4886B02D3A6F19003DCEBC /* Build configuration list for PBXProject "AllProblemsProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4886AC2D3A6F19003DCEBC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5B4886B12D3A6F19003DCEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5B4886B22D3A6F19003DCEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4886B02D3A6F19003DCEBC /* Build configuration list for PBXProject "AllProblemsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4886B12D3A6F19003DCEBC /* Debug */,
+				5B4886B22D3A6F19003DCEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4886AD2D3A6F19003DCEBC /* Project object */;
+}

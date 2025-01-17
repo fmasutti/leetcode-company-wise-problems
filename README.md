@@ -20,6 +20,30 @@ This is the first problem solved in this repository, based on the problems liste
 
 ---
 
+### 2. [Two Sum](https://leetcode.com/problems/two-sum/description/)
+
+**Description**: Given an array of integers `nums` and an integer `target`, you need to find two numbers from the array such that their sum equals the `target`. The solution should return the indices of the two numbers. You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+- **Input**: 
+  - An array of integers `nums`
+  - An integer `target`
+- **Output**: 
+  - A list of indices of the two numbers that add up to the target.
+
+**Example**:
+  
+  Input: `nums = [2, 7, 11, 15], target = 9`
+  
+  Output: `[0, 1]`
+  
+  Explanation: The numbers at indices 0 and 1 (`2` and `7`) add up to `9`.
+
+This problem is one of the most common coding interview questions, testing your ability to use hash maps for efficient lookups.
+
+The solution can be found in the corresponding Swift Playground file.
+
+---
+
 Feel free to explore, suggest improvements!
 
 ## How to Run the Tests
