@@ -9,14 +9,18 @@
 /* Begin PBXFileReference section */
 		5B4886B42D3A9B8E003DCEBC /* 1. Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4886B52D3A9B8E003DCEBC /* 2. Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Two Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B58AEEF2D3C23EA00C97E15 /* 3. Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B58AEF02D3C24DC00C97E15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		5B4886AC2D3A6F19003DCEBC = {
 			isa = PBXGroup;
 			children = (
+				5B58AEF02D3C24DC00C97E15 /* README.md */,
 				5B4886B42D3A9B8E003DCEBC /* 1. Valid Parentheses.playground */,
 				5B4886B52D3A9B8E003DCEBC /* 2. Two Sum.playground */,
+				5B58AEEF2D3C23EA00C97E15 /* 3. Roman to Integer.playground */,
 			);
 			sourceTree = "<group>";
 		};
