@@ -16,7 +16,7 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 - Open brackets must be closed in the correct order.
 - Every close bracket has a corresponding open bracket of the same type.
 
-This is the first problem solved in this repository, based on the problems listed in the aforementioned curated repository. The solution can be found in the corresponding Swift Playground file.
+The solution to this problem is available [HERE](AllProblemsProject/1.%20Valid%20Parentheses.playground/Contents.swift)
 
 ---
 
@@ -40,7 +40,7 @@ This is the first problem solved in this repository, based on the problems liste
 
 This problem is one of the most common coding interview questions, testing your ability to use hash maps for efficient lookups.
 
-The solution can be found in the corresponding Swift Playground file.
+The solution to this problem is available [HERE](AllProblemsProject/2.%20Two%20Sum.playground/Contents.swift)
 
 ---
 
@@ -79,7 +79,35 @@ The numerals follow these rules:
   Output: `1994`  
   Explanation: `M = 1000, CM = 900, XC = 90, IV = 4`
 
-The solution to this problem can be found in the corresponding Swift Playground file in this repository.
+The solution to this problem is available [HERE](AllProblemsProject/3.%20Roman%20to%20Integer.playground/Contents.swift)
+
+---
+
+### 4. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+
+**Description**:  
+Given a signed 32-bit integer `x`, reverse its digits. If reversing `x` causes the value to go outside the signed 32-bit integer range `[-2³¹, 2³¹ - 1]`, return `0`.
+
+**Constraints**:
+- The input `x` is a signed 32-bit integer.
+- The reversed result must also fit within the signed 32-bit range.
+
+**Examples**:
+
+- Input: `x = 123`  
+  Output: `321`
+
+- Input: `x = -123`  
+  Output: `-321`
+
+- Input: `x = 120`  
+  Output: `21`
+
+- Input: `x = 0`  
+  Output: `0`
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/4.%20Reverse%20Integer.playground/Contents.swift) 
 
 ---
 

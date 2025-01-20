@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		5B40DEF22D3E79A900F71C51 /* 4. Reverse Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4. Reverse Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4886B42D3A9B8E003DCEBC /* 1. Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4886B52D3A9B8E003DCEBC /* 2. Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Two Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B58AEEF2D3C23EA00C97E15 /* 3. Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -21,6 +22,7 @@
 				5B4886B42D3A9B8E003DCEBC /* 1. Valid Parentheses.playground */,
 				5B4886B52D3A9B8E003DCEBC /* 2. Two Sum.playground */,
 				5B58AEEF2D3C23EA00C97E15 /* 3. Roman to Integer.playground */,
+				5B40DEF22D3E79A900F71C51 /* 4. Reverse Integer.playground */,
 			);
 			sourceTree = "<group>";
 		};
