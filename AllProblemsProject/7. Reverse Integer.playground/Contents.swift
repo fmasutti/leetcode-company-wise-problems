@@ -1,8 +1,6 @@
 //4. Reverse Integer
 //Medium
 //
-//Topics
-//Companies
 //Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 //
 //Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
@@ -11,15 +9,15 @@
 //
 //Example 1:
 //
-//var x = 123 // <---- uncomment this line! to try example 1
+//Input: x = 123
 //Output: 321
 //Example 2:
 //
-//var x = -123 // <---- uncomment this line! to try example 2
+//Input: x = -123
 //Output: -321
 //Example 3:
 //
-var x = -120   // <---- uncomment this line! to try example 3
+//Input: x = 120
 //Output: 21
 // 
 //
@@ -27,18 +25,14 @@ var x = -120   // <---- uncomment this line! to try example 3
 //
 //-231 <= x <= 231 - 1
 
+// Examples:
+Solution().reverse(123)                 // 321
+Solution().reverse(-123)                // -321
+Solution().reverse(-120)                // -21
+Solution().reverse(-121231231231231233) // 0
+Solution().reverse(91830912823)         // 0
+
 class Solution {
-    
-    // Helper method only return 32bits Integers.
-    func returnOnlyValid32bIntegers(number:Int) -> Int {
-        if number <= Int32.min ||
-            number >= Int32.max {
-            return 0
-        } else {
-            return number
-        }
-    }
-    
     func reverse(_ x: Int) -> Int {
         var numberArray = String(abs(x))
         var index = numberArray.count
@@ -48,13 +42,11 @@ class Solution {
             index -= 1
         }
         
-        if let finalValue = Int(reversedNumberString) {
-            // Check if the value initially was positive or negative. + if is valid 32bit Integer
-            return returnOnlyValid32bIntegers(number: x > 0 ? finalValue : finalValue * -1)
-        } else {
+        let finalValue = Int(reversedNumberString) ?? Int.max
+        if finalValue >= Int32.max {
             return 0
+        } else {
+            return x > 0 ? finalValue : finalValue * -1
         }
     }
 }
-
-print(Solution().reverse(x))

@@ -8,19 +8,7 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 
 ## Problems Included
 
-### 1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-
-**Description**: Given a string `s` containing only the characters '(', ')', '{', '}', '[' and ']', the task is to determine if the input string is valid. The string is considered valid if:
-
-- Open brackets must be closed by the same type of brackets.
-- Open brackets must be closed in the correct order.
-- Every close bracket has a corresponding open bracket of the same type.
-
-The solution to this problem is available [HERE](AllProblemsProject/1.%20Valid%20Parentheses.playground/Contents.swift)
-
----
-
-### 2. [Two Sum](https://leetcode.com/problems/two-sum/description/)
+### 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 **Description**: Given an array of integers `nums` and an integer `target`, you need to find two numbers from the array such that their sum equals the `target`. The solution should return the indices of the two numbers. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -40,11 +28,83 @@ The solution to this problem is available [HERE](AllProblemsProject/1.%20Valid%2
 
 This problem is one of the most common coding interview questions, testing your ability to use hash maps for efficient lookups.
 
-The solution to this problem is available [HERE](AllProblemsProject/2.%20Two%20Sum.playground/Contents.swift)
+The solution to this problem is available [HERE](AllProblemsProject/1.%20Two%20Sum.playground/Contents.swift)
 
 ---
 
-### 3. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+### 7. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+
+**Description**:  
+Given a signed 32-bit integer `x`, reverse its digits. If reversing `x` causes the value to go outside the signed 32-bit integer range `[-2³¹, 2³¹ - 1]`, return `0`.
+
+**Constraints**:
+- The input `x` is a signed 32-bit integer.
+- The reversed result must also fit within the signed 32-bit range.
+
+**Examples**:
+
+- Input: `x = 123`  
+  Output: `321`
+
+- Input: `x = -123`  
+  Output: `-321`
+
+- Input: `x = 120`  
+  Output: `21`
+
+- Input: `x = 0`  
+  Output: `0`
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/7.%20Reverse%20Integer.playground/Contents.swift)
+
+---
+
+### 8. [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+
+**Description**:  
+Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer (similar to the C/C++ `atoi` function). The algorithm follows these steps:
+
+1. Read in and ignore any leading whitespace.
+2. Check if the next character is `'-'` or `'+'`. This determines if the final result is negative or positive. Assume the result is positive if neither is present.
+3. Read in the next characters until the next non-digit character or the end of the input is reached. Convert these digits into an integer.
+4. If no digits were read, return `0`.
+5. Clamp the integer value so that it remains in the range `[-2³¹, 2³¹ - 1]`. Specifically:
+   - If the integer is less than `-2³¹`, return `-2³¹`.
+   - If the integer is greater than `2³¹ - 1`, return `2³¹ - 1`.
+6. Ignore any characters after the last digit of the integer.
+
+**Constraints**:
+- `0 <= s.length <= 200`
+- `s` consists of English letters, digits, `' '`, `'+'`, `'-'`, and `'.'`.
+
+**Examples**:
+
+- Input: `s = "42"`  
+  Output: `42`
+
+- Input: `s = "   -42"`  
+  Output: `-42`  
+  Explanation: The first non-whitespace character is `'-'`, which makes the number negative. The rest of the string is `"42"`.
+
+- Input: `s = "4193 with words"`  
+  Output: `4193`  
+  Explanation: Conversion stops at the first non-digit character.
+
+- Input: `s = "words and 987"`  
+  Output: `0`  
+  Explanation: The first non-whitespace character is not a valid number.
+
+- Input: `s = "-91283472332"`  
+  Output: `-2147483648`  
+  Explanation: The number is less than `-2³¹`, so it is clamped to `-2147483648`.
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/8.%20String%20to%20Integer%20(atoi).playground).
+
+---
+
+### 13. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 **Description**:  
 Given a Roman numeral, convert it to an integer. Roman numerals are represented by seven different symbols:
@@ -79,35 +139,19 @@ The numerals follow these rules:
   Output: `1994`  
   Explanation: `M = 1000, CM = 900, XC = 90, IV = 4`
 
-The solution to this problem is available [HERE](AllProblemsProject/3.%20Roman%20to%20Integer.playground/Contents.swift)
+The solution to this problem is available [HERE](AllProblemsProject/13.%20Roman%20to%20Integer.playground/Contents.swift)
 
 ---
 
-### 4. [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+### 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-**Description**:  
-Given a signed 32-bit integer `x`, reverse its digits. If reversing `x` causes the value to go outside the signed 32-bit integer range `[-2³¹, 2³¹ - 1]`, return `0`.
+**Description**: Given a string `s` containing only the characters '(', ')', '{', '}', '[' and ']', the task is to determine if the input string is valid. The string is considered valid if:
 
-**Constraints**:
-- The input `x` is a signed 32-bit integer.
-- The reversed result must also fit within the signed 32-bit range.
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
+- Every close bracket has a corresponding open bracket of the same type.
 
-**Examples**:
-
-- Input: `x = 123`  
-  Output: `321`
-
-- Input: `x = -123`  
-  Output: `-321`
-
-- Input: `x = 120`  
-  Output: `21`
-
-- Input: `x = 0`  
-  Output: `0`
-
-**Solution**:  
-The solution to this problem is available [HERE](AllProblemsProject/4.%20Reverse%20Integer.playground/Contents.swift) 
+The solution to this problem is available [HERE](AllProblemsProject/20.%20Valid%20Parentheses.playground/Contents.swift)
 
 ---
 

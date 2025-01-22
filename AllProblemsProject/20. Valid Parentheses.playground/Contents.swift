@@ -8,29 +8,44 @@
 //Open brackets must be closed by the same type of brackets.
 //Open brackets must be closed in the correct order.
 //Every close bracket has a corresponding open bracket of the same type.
-
+// 
+//
 //Example 1:
 //
-var s = "({})" // <---- uncomment this line! to try example 1
+//Input: s = "()"
 //
 //Output: true
 //
 //Example 2:
 //
-//var s = "()[]{}" // <---- uncomment this line! to try example 2
+//Input: s = "()[]{}"
 //
 //Output: true
 //
 //Example 3:
 //
-//var s = "(]" // <---- uncomment this line! to try example 3
+//Input: s = "(]"
 //
 //Output: false
 //
 //Example 4:
 //
-//var s = "([])" // <---- uncomment this line! to try example 4
+//Input: s = "([])"
+//
 //Output: true
+//
+// 
+//
+//Constraints:
+//
+//1 <= s.length <= 104
+//s consists of parentheses only '()[]{}'.
+
+// Examples:
+Solution().isValid("({})")   // true
+Solution().isValid("()[]{}") // true
+Solution().isValid("(]")     // false
+Solution().isValid("({})")   // true
 
 class Solution {
     func isValid(_ s: String) -> Bool {
@@ -59,5 +74,3 @@ class Solution {
         return Character("")
     }
 }
-
-Solution().isValid(s)
