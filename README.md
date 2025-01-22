@@ -100,8 +100,8 @@ Implement the `myAtoi(string s)` function, which converts a string to a 32-bit s
   Explanation: The number is less than `-2³¹`, so it is clamped to `-2147483648`.
 
 **Solution**:  
-The solution to this problem is available [HERE](AllProblemsProject/8.%20String%20to%20Integer%20(atoi).playground).
-
+The solution to this problem is available [HERE](AllProblemsProject/8.%20String%20to%20Integer%20(atoi).playground/Contents.swift).
+AllProblemsProject/8. String to Int (atoi).playground/Contents.swift
 ---
 
 ### 13. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
