@@ -28,6 +28,7 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 
 This problem is one of the most common coding interview questions, testing your ability to use hash maps for efficient lookups.
 
+**Solution**:    
 The solution to this problem is available [HERE](AllProblemsProject/1.%20Two%20Sum.playground/Contents.swift)
 
 ---
@@ -55,7 +56,7 @@ Given a signed 32-bit integer `x`, reverse its digits. If reversing `x` causes t
 - Input: `x = 0`  
   Output: `0`
 
-**Solution**:  
+**Solution**:    
 The solution to this problem is available [HERE](AllProblemsProject/7.%20Reverse%20Integer.playground/Contents.swift)
 
 ---
@@ -99,9 +100,9 @@ Implement the `myAtoi(string s)` function, which converts a string to a 32-bit s
   Output: `-2147483648`  
   Explanation: The number is less than `-2³¹`, so it is clamped to `-2147483648`.
 
-**Solution**:  
-The solution to this problem is available [HERE](AllProblemsProject/8.%20String%20to%20Integer%20(atoi).playground/Contents.swift).
-AllProblemsProject/8. String to Int (atoi).playground/Contents.swift
+**Solution**:    
+The solution to this problem is available [HERE](AllProblemsProject/8.%20String%20to%20Integer%20(atoi).playground/Contents.swift)
+
 ---
 
 ### 13. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
@@ -139,6 +140,7 @@ The numerals follow these rules:
   Output: `1994`  
   Explanation: `M = 1000, CM = 900, XC = 90, IV = 4`
 
+**Solution**:    
 The solution to this problem is available [HERE](AllProblemsProject/13.%20Roman%20to%20Integer.playground/Contents.swift)
 
 ---
@@ -151,6 +153,7 @@ The solution to this problem is available [HERE](AllProblemsProject/13.%20Roman%
 - Open brackets must be closed in the correct order.
 - Every close bracket has a corresponding open bracket of the same type.
 
+**Solution**:    
 The solution to this problem is available [HERE](AllProblemsProject/20.%20Valid%20Parentheses.playground/Contents.swift)
 
 ---
