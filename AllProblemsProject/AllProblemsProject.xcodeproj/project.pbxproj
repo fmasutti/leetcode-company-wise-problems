@@ -13,6 +13,7 @@
 		5B58AEEF2D3C23EA00C97E15 /* 13. Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "13. Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B58AEF02D3C24DC00C97E15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B8678792D41901100369F41 /* 2. Add Two Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Add Two Numbers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5BA199CC2D4A545700DD2B26 /* 141. Linked List Cycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "141. Linked List Cycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5BD3B6CC2D3FE2B60040D097 /* 8. String to Integer (atoi).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "8. String to Integer (atoi).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -27,6 +28,7 @@
 				5BD3B6CC2D3FE2B60040D097 /* 8. String to Integer (atoi).playground */,
 				5B58AEEF2D3C23EA00C97E15 /* 13. Roman to Integer.playground */,
 				5B4886B42D3A9B8E003DCEBC /* 20. Valid Parentheses.playground */,
+				5BA199CC2D4A545700DD2B26 /* 141. Linked List Cycle.playground */,
 			);
 			sourceTree = "<group>";
 		};
