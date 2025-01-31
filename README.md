@@ -134,6 +134,35 @@ The solution to this problem is available [HERE](AllProblemsProject/8.%20String%
 
 ---
 
+### 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+
+**Description**:  
+Given an integer `x`, return `true` if `x` is a palindrome, and `false` otherwise.
+
+A palindrome is a number that reads the same forward and backward.
+
+**Constraints**:
+- `-2³¹ <= x <= 2³¹ - 1`
+
+**Examples**:
+
+- Input: `x = 121`  
+  Output: `true`  
+  Explanation: `121` reads the same forward and backward.
+
+- Input: `x = -121`  
+  Output: `false`  
+  Explanation: `-121` reads as `121-` from right to left, which is not the same.
+
+- Input: `x = 10`  
+  Output: `false`  
+  Explanation: `10` reads as `01` from right to left, which is not the same.
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/9.%20Palindrome%20Number.playground/Contents.swift).
+
+---
+
 ### 13. [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 **Description**:  
