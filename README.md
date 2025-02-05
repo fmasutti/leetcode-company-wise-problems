@@ -249,6 +249,36 @@ The solution to this problem is available [HERE](AllProblemsProject/141.%20Linke
 
 ---
 
+### 2815. [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)
+
+**Description**:  
+You are given an integer array `nums`. You need to find the maximum sum of a pair `(nums[i], nums[j])` such that both numbers have the same maximum digit.
+
+The maximum digit of a number is the largest digit in its decimal representation.
+
+**Constraints**:
+- `2 <= nums.length <= 100`
+- `1 <= nums[i] <= 10⁴`
+
+**Examples**:
+
+- Input: `nums = [51, 71, 17, 24, 42]`  
+  Output: `88`  
+  Explanation: The pair `(17, 71)` has the same maximum digit `7`, and their sum is `88`.
+
+- Input: `nums = [1, 2, 3, 4]`  
+  Output: `-1`  
+  Explanation: No two numbers have the same maximum digit.
+
+- Input: `nums = [10, 20, 30, 40, 50]`  
+  Output: `90`  
+  Explanation: The pair `(40, 50)` has the same maximum digit `4`, and their sum is `90`.
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/2815.%20Max%20Pair%20Sum%20in%20an%20Array.playground/Contents.swift).
+
+---
+
 Feel free to explore, suggest improvements!
 
 ## How to Run the Tests
