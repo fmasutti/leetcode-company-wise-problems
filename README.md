@@ -215,6 +215,35 @@ The solution to this problem is available [HERE](AllProblemsProject/13.%20Roman%
 The solution to this problem is available [HERE](AllProblemsProject/20.%20Valid%20Parentheses.playground/Contents.swift)
 
 ---
+  
+### 27. [Remove Element](https://leetcode.com/problems/remove-element/)
+
+**Description**:  
+Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` **in-place**. The relative order of the elements may be changed.
+
+Since it is impossible to change the length of the array in some languages, you must place the result in the first part of the array `nums`. More formally, if there are `k` elements after removing the duplicates, then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k` elements.
+
+Return `k` after placing the final result in the first `k` slots of `nums`.
+
+**Constraints**:
+- `0 <= nums.length <= 100`
+- `0 <= nums[i] <= 50`
+- `0 <= val <= 100`
+
+**Examples**:
+
+- Input: `nums = [3,2,2,3], val = 3`  
+  Output: `2, nums = [2,2,_,_]`  
+  Explanation: The function should return `k = 2`, with the first two elements of `nums` being `2`. The order of elements may vary.
+
+- Input: `nums = [0,1,2,2,3,0,4,2], val = 2`  
+  Output: `5, nums = [0,1,4,0,3,_,_,_]`  
+  Explanation: The function should return `k = 5`, with the first five elements of `nums` being `0, 1, 4, 0, 3`.
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/27.%20Remove%20Element.playground/Contents.swift).
+
+---
 
 ### 141. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 
