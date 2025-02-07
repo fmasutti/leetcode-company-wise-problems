@@ -8,6 +8,18 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 
 ## Problems Included
 
+- [1. Two Sum](#1-two-sum)  
+- [2. Add Two Numbers](#2-add-two-numbers)  
+- [7. Reverse Integer](#7-reverse-integer)  
+- [8. String to Integer (atoi)](#8-string-to-integer-atoi)  
+- [9. Palindrome Number](#9-palindrome-number)  
+- [13. Roman to Integer](#13-roman-to-integer)  
+- [20. Valid Parentheses](#20-valid-parentheses)  
+- [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)  
+- [27. Remove Element](#27-remove-element)  
+- [141. Linked List Cycle](#141-linked-list-cycle)  
+- [2815. Max Pair Sum in an Array](#2815-max-pair-sum-in-an-array) 
+
 ### 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 **Description**: Given an array of integers `nums` and an integer `target`, you need to find two numbers from the array such that their sum equals the `target`. The solution should return the indices of the two numbers. You may assume that each input would have exactly one solution, and you may not use the same element twice.
