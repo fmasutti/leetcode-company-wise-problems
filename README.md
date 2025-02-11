@@ -17,6 +17,7 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 - [20. Valid Parentheses](#20-valid-parentheses)  
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)  
 - [27. Remove Element](#27-remove-element)  
+- [121. Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [141. Linked List Cycle](#141-linked-list-cycle)  
 - [2815. Max Pair Sum in an Array](#2815-max-pair-sum-in-an-array) 
 
@@ -283,6 +284,32 @@ Return `k` after placing the final result in the first `k` slots of `nums`.
 
 **Solution**:  
 The solution to this problem is available [HERE](AllProblemsProject/27.%20Remove%20Element.playground/Contents.swift).
+
+---
+
+### 121. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+**Description**:  
+You are given an array `prices[]` where `prices[i]` represents the stock price on day `i`.  
+Find the **maximum profit** by buying **one** stock and selling **once** later.  
+If no profit is possible, return `0`.  
+
+**Constraints**:  
+- `1 <= prices.length <= 10⁵`  
+- `0 <= prices[i] <= 10⁴`  
+
+**Examples**:  
+
+- Input: `prices = [7,1,5,3,6,4]`  
+  Output: `5`  
+  _Explanation:_ Buy on day `1` (price = `1`), sell on day `4` (price = `6`), profit = `6 - 1 = 5`.  
+
+- Input: `prices = [7,6,4,3,1]`  
+  Output: `0`  
+  _Explanation:_ No profitable transaction is possible.  
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.playground/Contents.swift).  
 
 ---
 
