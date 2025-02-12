@@ -18,7 +18,8 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)  
 - [27. Remove Element](#27-remove-element)  
 - [121. Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
-- [141. Linked List Cycle](#141-linked-list-cycle)  
+- [141. Linked List Cycle](#141-linked-list-cycle)
+- [206. Reverse Linked List](#206-reverse-linked-list)  
 - [2815. Max Pair Sum in an Array](#2815-max-pair-sum-in-an-array) 
 
 ### 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -343,6 +344,31 @@ Return `true` if there is a cycle in the linked list. Otherwise, return `false`.
 
 **Solution**:  
 The solution to this problem is available [HERE](AllProblemsProject/141.%20Linked%20List%20Cycle.playground/Contents.swift).
+
+---
+
+### 206. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+**Description**:  
+Given the `head` of a singly linked list, reverse the list and return the new `head`.  
+
+**Constraints**:  
+- The number of nodes in the list is in the range `[0, 5000]`.  
+- `-5000 <= Node.val <= 5000`  
+
+**Examples**:  
+
+- Input: `head = [1,2,3,4,5]`  
+  Output: `[5,4,3,2,1]`  
+
+- Input: `head = [1,2]`  
+  Output: `[2,1]`  
+
+- Input: `head = []`  
+  Output: `[]`  
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/206.%20Reverse%20Linked%20List.playground/Contents.swift).  
 
 ---
 
