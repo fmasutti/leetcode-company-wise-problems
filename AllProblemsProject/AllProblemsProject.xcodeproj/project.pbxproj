@@ -12,6 +12,7 @@
 		5B44118F2D5585D300680088 /* 26. Remove Duplicates from Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "26. Remove Duplicates from Sorted Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4411902D5642A700680088 /* 121. Best Time to Buy and Sell Stock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "121. Best Time to Buy and Sell Stock.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4411CC2D5BC77100680088 /* 206. Reverse Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "206. Reverse Linked List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B4411CD2D5CC0E700680088 /* 234. Palindrome Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "234. Palindrome Linked List.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4886B42D3A9B8E003DCEBC /* 20. Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "20. Valid Parentheses.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B4886B52D3A9B8E003DCEBC /* 1. Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1. Two Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B58AEEF2D3C23EA00C97E15 /* 13. Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "13. Roman to Integer.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -40,6 +41,7 @@
 				5B4411902D5642A700680088 /* 121. Best Time to Buy and Sell Stock.playground */,
 				5BA199CC2D4A545700DD2B26 /* 141. Linked List Cycle.playground */,
 				5B4411CC2D5BC77100680088 /* 206. Reverse Linked List.playground */,
+				5B4411CD2D5CC0E700680088 /* 234. Palindrome Linked List.playground */,
 				5BA199CE2D5279A800DD2B26 /* 2815. Max Pair Sum in an Array.playground */,
 			);
 			sourceTree = "<group>";

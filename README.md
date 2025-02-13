@@ -2,6 +2,19 @@
 
 This repository contains solutions to various programming problems found on the [LeetCode](https://leetcode.com/) website, based on problems commonly asked in company interviews. The problems are sourced from this [list of company-wise LeetCode problems](https://github.com/hxu296/leetcode-company-wise-problems-2022), which provides a curated set of questions that have been asked in real-life technical interviews at major tech companies.
 
+## Getting Started
+
+You can check out the full problems here: [GitHub Repository](https://github.com/fmasutti/leetcode-company-wise-problems).
+
+This repository contains a project with all the **Playground files** already set up, allowing you to easily navigate and run the solutions in Swift Playgrounds or Xcode.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/fmasutti/leetcode-company-wise-problems.git
+   ```
+
+## Goal
+
 The goal is to practice and improve problem-solving skills using different data structures and algorithms, with solutions implemented in **Swift**.
 
 Each solution is contained in a dedicated **Playground file**. Swift Playgrounds provide a great environment for testing and running Swift code interactively, making them an ideal choice for these types of challenges.
@@ -19,7 +32,8 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 - [27. Remove Element](#27-remove-element)  
 - [121. Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [141. Linked List Cycle](#141-linked-list-cycle)
-- [206. Reverse Linked List](#206-reverse-linked-list)  
+- [206. Reverse Linked List](#206-reverse-linked-list)
+- [234. Palindrome Linked List](#234-palindrome-linked-list)  
 - [2815. Max Pair Sum in an Array](#2815-max-pair-sum-in-an-array) 
 
 ### 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
@@ -372,6 +386,28 @@ The solution to this problem is available [HERE](AllProblemsProject/206.%20Rever
 
 ---
 
+### 234. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+
+**Description**:  
+Given the `head` of a singly linked list, return `true` if it is a palindrome or `false` otherwise.
+
+**Constraints**:
+- The number of nodes in the list is in the range `[1, 10⁵]`.
+- `0 <= Node.val <= 9`
+
+**Examples**:
+
+- Input: `head = [1,2,2,1]`  
+  Output: `true`
+
+- Input: `head = [1,2]`  
+  Output: `false`
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/234.%20Palindrome%20Linked%20List.playground/Contents.swift)
+
+---
+
 ### 2815. [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/description/)
 
 **Description**:  
@@ -403,9 +439,3 @@ The solution to this problem is available [HERE](AllProblemsProject/2815.%20Max%
 ---
 
 Feel free to explore, suggest improvements!
-
-## How to Run the Tests
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/fmasutti/leetcode-company-wise-problems.git
