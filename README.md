@@ -29,6 +29,7 @@ Each solution is contained in a dedicated **Playground file**. Swift Playgrounds
 - [13. Roman to Integer](#13-roman-to-integer)  
 - [20. Valid Parentheses](#20-valid-parentheses)  
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)  
+- [21. Merge Two Sorted Lists](#21-merge-two-sorted-lists)
 - [27. Remove Element](#27-remove-element)  
 - [121. Best Time to Buy and Sell Stock](#121-best-time-to-buy-and-sell-stock)
 - [141. Linked List Cycle](#141-linked-list-cycle)
@@ -243,7 +244,36 @@ The solution to this problem is available [HERE](AllProblemsProject/13.%20Roman%
 The solution to this problem is available [HERE](AllProblemsProject/20.%20Valid%20Parentheses.playground/Contents.swift)
 
 ---
-  
+
+### 21. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+**Description**:  
+You are given the heads of two sorted linked lists, `list1` and `list2`.  
+Merge the two lists into one **sorted** linked list. The list should be made by splicing together the nodes of the first two lists.  
+
+Return the head of the merged linked list.
+
+**Constraints**:
+- The number of nodes in both lists is in the range `[0, 50]`.
+- `-100 <= Node.val <= 100`
+- Both `list1` and `list2` are sorted in **non-decreasing** order.
+
+**Examples**:
+
+- Input: `list1 = [1,2,4]`, `list2 = [1,3,4]`  
+  Output: `[1,1,2,3,4,4]`
+
+- Input: `list1 = []`, `list2 = []`  
+  Output: `[]`
+
+- Input: `list1 = []`, `list2 = [0]`  
+  Output: `[0]`
+
+**Solution**:  
+The solution to this problem is available [HERE](AllProblemsProject/21.%20Merge%20Two%20Sorted%20Lists.playground/Contents.swift)
+
+---
+
 ### 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 **Description**:  
